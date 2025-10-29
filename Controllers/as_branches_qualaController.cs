@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Techinical.Quala.Api.Services;
 using Technical_Test_Quala.Models;
 using Technical_Test_Quala.Services;
 
@@ -9,15 +10,17 @@ namespace Technical_Test_Quala.Controllers
     public class as_branches_qualaController : ControllerBase
     {
         public readonly Ias_branch_qualaService _service;
+        public readonly IencriptationService _encritp;
 
-        public as_branches_qualaController(Ias_branch_qualaService service)
+        public as_branches_qualaController(Ias_branch_qualaService service, IencriptationService encript)
         {
             _service = service;
+            _encritp = encript;
         }
 
         [HttpGet]
         public async Task<IEnumerable<as_branch_quala>> GetAllAsync()
-        {
+        {            
             return await _service.GetAllAsync();
         }
 

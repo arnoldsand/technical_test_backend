@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\",
+  "WorkspaceRootPath": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\users\\arnol\\source\\repos\\techinical.quala.api\\models\\as_branch_quala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:models\\as_branch_quala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\users\\arnol\\source\\repos\\techinical.quala.api\\repositories\\as_branch_qualarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:repositories\\as_branch_qualarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\users\\arnol\\source\\repos\\techinical.quala.api\\controllers\\as_branches_qualacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:controllers\\as_branches_qualacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\users\\arnol\\source\\repos\\techinical.quala.api\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\users\\arnol\\source\\repos\\techinical.quala.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\users\\arnol\\source\\repos\\techinical.quala.api\\services\\as_branch_qualaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:services\\as_branch_qualaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\users\\arnol\\source\\repos\\techinical.quala.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "as_branch_quala.cs",
-              "DocumentMoniker": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Models\\as_branch_quala.cs",
-              "RelativeDocumentMoniker": "Models\\as_branch_quala.cs",
-              "ToolTip": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Models\\as_branch_quala.cs",
-              "RelativeToolTip": "Models\\as_branch_quala.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T01:04:29.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-29T01:00:06.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "as_branch_qualaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Repositories\\as_branch_qualaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\as_branch_qualaRepository.cs",
-              "ToolTip": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Repositories\\as_branch_qualaRepository.cs",
-              "RelativeToolTip": "Repositories\\as_branch_qualaRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAABLAAAAAAAAAA==",
+              "Title": "userService.cs",
+              "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Services\\userService.cs",
+              "RelativeDocumentMoniker": "Services\\userService.cs",
+              "ToolTip": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Services\\userService.cs",
+              "RelativeToolTip": "Services\\userService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:55:26.751Z",
+              "WhenOpened": "2025-10-29T13:40:13.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "as_branches_qualaController.cs",
-              "DocumentMoniker": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Controllers\\as_branches_qualaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\as_branches_qualaController.cs",
-              "ToolTip": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Controllers\\as_branches_qualaController.cs",
-              "RelativeToolTip": "Controllers\\as_branches_qualaController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "userRepository.cs",
+              "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Repositories\\userRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\userRepository.cs",
+              "ToolTip": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Repositories\\userRepository.cs",
+              "RelativeToolTip": "Repositories\\userRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAASwBQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:54:46.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "as_branch_qualaService.cs",
-              "DocumentMoniker": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Services\\as_branch_qualaService.cs",
-              "RelativeDocumentMoniker": "Services\\as_branch_qualaService.cs",
-              "ToolTip": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Services\\as_branch_qualaService.cs",
-              "RelativeToolTip": "Services\\as_branch_qualaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:52:33.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:45:07.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DapperContext.cs",
-              "DocumentMoniker": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Data\\DapperContext.cs",
-              "RelativeDocumentMoniker": "Data\\DapperContext.cs",
-              "ToolTip": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Data\\DapperContext.cs",
-              "RelativeToolTip": "Data\\DapperContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T00:44:52.057Z",
+              "WhenOpened": "2025-10-29T13:40:13.052Z",
               "EditorCaption": ""
             }
           ]

@@ -97,5 +97,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Techinical.Quala.Api.Controllers.authController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Techinical.Quala.Api.DTOs.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Techinical.Quala.Api.csproj": {}
+    "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Techinical.Quala.Api.csproj": {
+    "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Techinical.Quala.Api.csproj",
+        "projectUniqueName": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api.csproj",
         "projectName": "Techinical.Quala.Api",
-        "projectPath": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\Techinical.Quala.Api.csproj",
+        "projectPath": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api.csproj",
         "packagesPath": "C:\\Users\\arnol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arnol\\source\\repos\\Techinical.Quala.Api\\obj\\",
+        "outputPath": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arnol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.1.66, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

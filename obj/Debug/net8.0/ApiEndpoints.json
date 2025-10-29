@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "Technical_Test_Quala.Controllers.as_branches_qualaController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/as_branches_quala",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Technical_Test_Quala.Models.as_branch_quala, Techinical.Quala.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Technical_Test_Quala.Controllers.as_branches_qualaController",
+    "Method": "InsertAsync",
+    "RelativePath": "api/as_branches_quala",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "Technical_Test_Quala.Models.as_branch_quala",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_Test_Quala.Controllers.as_branches_qualaController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/as_branches_quala/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Technical_Test_Quala.Models.as_branch_quala",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Technical_Test_Quala.Controllers.as_branches_qualaController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/as_branches_quala/{code}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "branch",
+        "Type": "Technical_Test_Quala.Models.as_branch_quala",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Technical_Test_Quala.Controllers.as_branches_qualaController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/as_branches_quala/{code}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

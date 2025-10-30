@@ -18,6 +18,12 @@ namespace Techinical.Quala.Api.Controllers
             _serviceAuth = serviceAuth;
         }
 
+        [HttpOptions("login")]
+        public IActionResult Options()
+        {
+            return Ok();
+        }
+
         [HttpPost("login")]
         [AllowAnonymous] 
         public async Task<IActionResult> Login([FromBody] LoginRequest request)

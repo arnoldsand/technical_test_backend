@@ -23,7 +23,8 @@ namespace Technical_Test_Quala.Controllers
 
         [HttpGet]
         public async Task<IEnumerable<as_branch_qualaDTOs>> GetAllAsync()
-        {            
+        {
+           // var cadena = _encritp.Encrypt("1234567");
             return await _service.GetAllAsync();
         }
 

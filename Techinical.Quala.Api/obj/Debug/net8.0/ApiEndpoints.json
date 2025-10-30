@@ -100,6 +100,16 @@
   },
   {
     "ContainingType": "Techinical.Quala.Api.Controllers.authController",
+    "Method": "Options",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "OPTIONS",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Techinical.Quala.Api.Controllers.authController",
     "Method": "Login",
     "RelativePath": "api/auth/login",
     "HttpMethod": "POST",

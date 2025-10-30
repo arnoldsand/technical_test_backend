@@ -8,5 +8,6 @@
         public string identification { get; set; }
         public DateTime creation_date { get; set; }
         public string currency { get; set; }
+        
     }
 }

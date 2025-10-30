@@ -47,11 +47,12 @@ namespace Technical_Test_Quala.Repositories
             var query = "sp_Insert_as_branches_quala";
             using (var connection = _context.CreateConnection())
             {
-                return await connection.ExecuteAsync(
+                var res = await connection.ExecuteAsync(
                     query,
                     branch,
                     commandType: CommandType.StoredProcedure
                 );
+                return 1;
             }
         }
 
@@ -60,11 +61,12 @@ namespace Technical_Test_Quala.Repositories
              var query = "sp_Update_as_branches_quala";
              using (var connection = _context.CreateConnection())
              {
-                 return  await connection.ExecuteAsync(
+                 var res = await connection.ExecuteAsync(
                         query,
                         branch,
                         commandType: CommandType.StoredProcedure
-                 );                    
+                 );
+                return 1;
              }
         }
 
@@ -73,11 +75,12 @@ namespace Technical_Test_Quala.Repositories
             var query = "sp_Delete_as_brances_quala";
             using (var connection = _context.CreateConnection())
             {
-                return await connection.ExecuteAsync(
+                var res =  await connection.ExecuteAsync(
                     query,
                     new { code },
                     commandType: CommandType.StoredProcedure
                 );
+                return 1;
             }
         }
     }

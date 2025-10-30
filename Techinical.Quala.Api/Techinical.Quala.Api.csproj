@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <None Remove="Dockerfile" />
+    <None Remove="Scripts\ScriptCreacionBD.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Scripts\ScriptCreacionBD.sql" />
   </ItemGroup>
 
   <ItemGroup>

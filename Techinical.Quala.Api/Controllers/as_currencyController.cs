@@ -9,7 +9,7 @@ namespace Technical_Test_Quala.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-   // [Authorize]
+    [Authorize]
     public class as_currencyController : ControllerBase
     {
         public readonly Ias_currencyService _service;   

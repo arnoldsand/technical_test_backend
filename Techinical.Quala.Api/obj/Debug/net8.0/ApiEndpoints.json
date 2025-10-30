@@ -70,13 +70,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "code",
-        "Type": "System.Int32",
+        "Name": "branch",
+        "Type": "Technical_Test_Quala.Models.as_branch_quala",
         "IsRequired": true
       },
       {
-        "Name": "branch",
-        "Type": "Technical_Test_Quala.Models.as_branch_quala",
+        "Name": "code",
+        "Type": "",
         "IsRequired": true
       }
     ],

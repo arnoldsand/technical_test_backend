@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\controllers\\as_currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:controllers\\as_currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\services\\as_currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:services\\as_currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\repositories\\as_branch_qualarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:repositories\\as_branch_qualarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\controllers\\as_branches_qualacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:controllers\\as_branches_qualacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\repositories\\ias_branch_qualarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:repositories\\ias_branch_qualarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\controllers\\as_currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:controllers\\as_currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|c:\\pruena_tecnica_quala\\backend\\technical_test_backend\\techinical.quala.api\\services\\as_currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78319A63-3C00-47F8-8117-FCD7617B580D}|Techinical.Quala.Api.csproj|solutionrelative:services\\as_currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "as_currencyController.cs",
+              "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Controllers\\as_currencyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\as_currencyController.cs",
+              "ToolTip": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Controllers\\as_currencyController.cs",
+              "RelativeToolTip": "Controllers\\as_currencyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T22:00:04.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "as_branch_qualaRepository.cs",
+              "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Repositories\\as_branch_qualaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\as_branch_qualaRepository.cs",
+              "ToolTip": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Repositories\\as_branch_qualaRepository.cs",
+              "RelativeToolTip": "Repositories\\as_branch_qualaRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv0oAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T21:36:32.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "as_currencyService.cs",
               "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Services\\as_currencyService.cs",
               "RelativeDocumentMoniker": "Services\\as_currencyService.cs",
@@ -51,54 +77,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T17:32:23.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "as_currencyController.cs",
-              "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Controllers\\as_currencyController.cs",
-              "RelativeDocumentMoniker": "Controllers\\as_currencyController.cs",
-              "ToolTip": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Controllers\\as_currencyController.cs",
-              "RelativeToolTip": "Controllers\\as_currencyController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T17:30:15.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "as_branches_qualaController.cs",
               "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Controllers\\as_branches_qualaController.cs",
               "RelativeDocumentMoniker": "Controllers\\as_branches_qualaController.cs",
               "ToolTip": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Controllers\\as_branches_qualaController.cs",
               "RelativeToolTip": "Controllers\\as_branches_qualaController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAArwD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T17:28:41.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ias_branch_qualaRepository.cs",
-              "DocumentMoniker": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Repositories\\Ias_branch_qualaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Ias_branch_qualaRepository.cs",
-              "ToolTip": "C:\\pruena_tecnica_quala\\Backend\\technical_test_backend\\Techinical.Quala.Api\\Repositories\\Ias_branch_qualaRepository.cs",
-              "RelativeToolTip": "Repositories\\Ias_branch_qualaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T17:18:42.576Z",
               "EditorCaption": ""
             }
           ]

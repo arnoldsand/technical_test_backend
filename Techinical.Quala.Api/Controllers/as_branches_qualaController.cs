@@ -44,11 +44,11 @@ namespace Technical_Test_Quala.Controllers
             var result = await _service.InsertAsync(branch);
             if (result > 0)
                 return Ok(new { message = "Registro insertado correctamente." });
-            return BadRequest("No se pudo insertar el registro.");
+            return BadRequest(new { message = "No se pudo insertar el registro."});
         }
 
         [HttpPut("{code}")]
-        public async Task<IActionResult> UpdateAsync(int code, [FromBody] as_branch_quala branch)
+        public async Task<IActionResult> UpdateAsync([FromBody] as_branch_quala branch)
         {            
             var result = await _service.UpdateAsync(branch);
             if (result > 0)

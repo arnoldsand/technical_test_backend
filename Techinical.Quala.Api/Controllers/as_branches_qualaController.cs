@@ -9,11 +9,12 @@ namespace Technical_Test_Quala.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-   // [Authorize]
+    [Authorize]
     public class as_branches_qualaController : ControllerBase
     {
         public readonly Ias_branch_qualaService _service;
         public readonly IencriptationService _encritp;
+        
 
         public as_branches_qualaController(Ias_branch_qualaService service, IencriptationService encript)
         {

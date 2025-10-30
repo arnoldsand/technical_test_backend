@@ -31,6 +31,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<DrapperContext>();
 builder.Services.AddScoped<Ias_branch_qualaRepository, as_branch_qualaRepository>();
 builder.Services.AddScoped<Ias_branch_qualaService, as_branch_qualaService>();
+builder.Services.AddScoped<Ias_currencyRepository, as_currencyRepository>();
+builder.Services.AddScoped<Ias_currencyService, as_currencyService>();
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

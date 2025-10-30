@@ -4,6 +4,7 @@ using System.Data;
 using System.Threading.Tasks;
 using Technical_Test_Quala.Data;
 using Technical_Test_Quala.Models;
+using Techinical.Quala.Api.DTOs;
 
 namespace Technical_Test_Quala.Repositories
 {
@@ -16,24 +17,24 @@ namespace Technical_Test_Quala.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<as_branch_quala>> GetAllAsync()
+        public async Task<IEnumerable<as_branch_qualaDTOs>> GetAllAsync()
         {
             using (var connection = _context.CreateConnection())
             {
                 var query = "sp_Get_as_branches_quala";
-                return await connection.QueryAsync<as_branch_quala>(
+                return await connection.QueryAsync<as_branch_qualaDTOs>(
                     query,
                     commandType: CommandType.StoredProcedure
                 );
             }
         }
 
-        public async Task<as_branch_quala?> GetByIdAsync(int code)
+        public async Task<as_branch_qualaDTOs?> GetByIdAsync(int code)
         {
             var query = "sp_Get_as_branches_quala_By_Code";
             using (var connection = _context.CreateConnection())
             {
-                return await connection.QueryFirstOrDefaultAsync<as_branch_quala>(
+                return await connection.QueryFirstOrDefaultAsync<as_branch_qualaDTOs>(
                     query,
                     new { code },
                     commandType: CommandType.StoredProcedure
@@ -41,12 +42,12 @@ namespace Technical_Test_Quala.Repositories
             }
         }
 
-        public Task<int> InsertAsync(as_branch_quala branch)
+        public async Task<int> InsertAsync(as_branch_quala branch)
         {
             var query = "sp_Insert_as_branches_quala";
             using (var connection = _context.CreateConnection())
             {
-                return connection.ExecuteAsync(
+                return await connection.ExecuteAsync(
                     query,
                     branch,
                     commandType: CommandType.StoredProcedure
@@ -54,26 +55,25 @@ namespace Technical_Test_Quala.Repositories
             }
         }
 
-        public Task<int> UpdateAsync(as_branch_quala branch)
-        {
-            var query = "sp_Update_as_branches_quala";
-            using (var connection = _context.CreateConnection())
-            {
-                return connection.ExecuteAsync(
-                    query,
-                    branch,
-                    commandType: CommandType.StoredProcedure
-                );
-            }
+        public async Task<int> UpdateAsync(as_branch_quala branch)
+        {            
+             var query = "sp_Update_as_branches_quala";
+             using (var connection = _context.CreateConnection())
+             {
+                 return  await connection.ExecuteAsync(
+                        query,
+                        branch,
+                        commandType: CommandType.StoredProcedure
+                 );                    
+             }
         }
 
-
-        public Task<int> DeleteAsync(int code)
+        public async Task<int> DeleteAsync(int code)
         {
             var query = "sp_Delete_as_brances_quala";
             using (var connection = _context.CreateConnection())
             {
-                return connection.ExecuteAsync(
+                return await connection.ExecuteAsync(
                     query,
                     new { code },
                     commandType: CommandType.StoredProcedure

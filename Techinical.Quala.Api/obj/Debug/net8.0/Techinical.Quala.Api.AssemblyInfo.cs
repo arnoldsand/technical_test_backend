@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Techinical.Quala.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46ff5a97ed070e0d6ecf754764a2c5f2d557cd18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2232e7359cb4e4d315667d9fd1197f10815103df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Techinical.Quala.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Techinical.Quala.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

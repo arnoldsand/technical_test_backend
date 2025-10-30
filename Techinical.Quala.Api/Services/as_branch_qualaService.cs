@@ -1,5 +1,6 @@
 ﻿using Technical_Test_Quala.Repositories;
 using Technical_Test_Quala.Models;
+using Techinical.Quala.Api.DTOs;
 
 namespace Technical_Test_Quala.Services
 {
@@ -12,12 +13,12 @@ namespace Technical_Test_Quala.Services
             _repository = repository;
         }
 
-        public Task<IEnumerable<as_branch_quala>> GetAllAsync()
+        public Task<IEnumerable<as_branch_qualaDTOs>> GetAllAsync()
         {
             return _repository.GetAllAsync();
         }
 
-        public Task<as_branch_quala?> GetByIdAsync(int code)
+        public Task<as_branch_qualaDTOs?> GetByIdAsync(int code)
         {
             return _repository.GetByIdAsync(code);
         }

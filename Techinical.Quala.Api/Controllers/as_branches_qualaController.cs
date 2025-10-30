@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Techinical.Quala.Api.DTOs;
 using Techinical.Quala.Api.Services;
 using Technical_Test_Quala.Models;
 using Technical_Test_Quala.Services;
@@ -8,7 +9,7 @@ namespace Technical_Test_Quala.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+   // [Authorize]
     public class as_branches_qualaController : ControllerBase
     {
         public readonly Ias_branch_qualaService _service;
@@ -21,7 +22,7 @@ namespace Technical_Test_Quala.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<as_branch_quala>> GetAllAsync()
+        public async Task<IEnumerable<as_branch_qualaDTOs>> GetAllAsync()
         {            
             return await _service.GetAllAsync();
         }
@@ -46,8 +47,7 @@ namespace Technical_Test_Quala.Controllers
 
         [HttpPut("{code}")]
         public async Task<IActionResult> UpdateAsync(int code, [FromBody] as_branch_quala branch)
-        {
-            branch.code = code;
+        {            
             var result = await _service.UpdateAsync(branch);
             if (result > 0)
                 return Ok(new { message = "Registro actualizado correctamente." });
